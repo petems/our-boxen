@@ -44,3 +44,4 @@ This template project contains the following:
 
 ## PeteMS custom shizzle
 * Mou
+* League of Legends
