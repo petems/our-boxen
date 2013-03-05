@@ -85,4 +85,8 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  # PeteMS custom packages
+  include mou
+
 }
