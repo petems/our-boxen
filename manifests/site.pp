@@ -88,5 +88,6 @@ node default {
 
   # PeteMS custom packages
   include mou
+  include league_of_legends
 
 }

@@ -37,4 +37,5 @@ github "sudo",     "1.0.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "mou",     "1.0.0", :repo => "petems/puppet-mou"
+github "mou",						"1.0.0", :repo => "petems/puppet-mou"
+github "league_of_legends",		  "1.0.1", :repo => "petems/puppet-league_of_legends"
