@@ -39,5 +39,5 @@ github "sudo",     "1.0.0"
 
 github "propane",     			  "1.0.0"
 github "mou",					  "1.0.0"
-github "league_of_legends",		  "1.0.0", :repo => "petems/puppet-league_of_legends"
+github "league_of_legends",		  "1.0.2", :repo => "petems/puppet-league_of_legends"
 github "rabbitmq",                "1.1.2", :repo => "petems/puppet-rabbitmq"

@@ -29,6 +29,11 @@ GITHUBTARBALL
     hub (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-mou
+  specs:
+    mou (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.0.0)
@@ -42,6 +47,11 @@ GITHUBTARBALL
   remote: boxen/puppet-nvm
   specs:
     nvm (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-propane
+  specs:
+    propane (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-ruby
@@ -59,6 +69,16 @@ GITHUBTARBALL
     inifile (0.9.0)
 
 GITHUBTARBALL
+  remote: petems/puppet-league_of_legends
+  specs:
+    league_of_legends (1.0.2)
+
+GITHUBTARBALL
+  remote: petems/puppet-rabbitmq
+  specs:
+    rabbitmq (1.1.2)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (3.0.0)
@@ -71,9 +91,13 @@ DEPENDENCIES
   homebrew (= 1.0.0)
   hub (= 1.0.0)
   inifile (= 0.9.0)
+  league_of_legends (= 1.0.2)
+  mou (= 1.0.0)
   nginx (= 1.0.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
+  propane (= 1.0.0)
+  rabbitmq (= 1.1.2)
   ruby (= 1.0.0)
   stdlib (= 3.0.0)
   sudo (= 1.0.0)
