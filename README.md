@@ -2,23 +2,13 @@
 
 This is a Boxen project forked to my tastes.
 
-## Getting Started
-
-1. Install the Xcode Command Line Tools (full Xcode install optional).
-1. Do the following:
-
 ```
 sudo mkdir -p /opt/boxen
 sudo chown ${USER}:admin /opt/boxen
 git clone https://github.com/petems/our-boxen.git /opt/boxen/repo
 cd /opt/boxen/repo
 script/boxen
-
-# add boxen to your shell config, at the end, eg.
-echo '[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh'
 ```
-
-Open a new terminal, `boxen --env` to confirm.
 
 ## What You Get
 
@@ -45,3 +35,4 @@ This template project contains the following:
 ## PeteMS custom shizzle
 * Mou
 * League of Legends
+
