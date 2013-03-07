@@ -91,5 +91,6 @@ node default {
   include league_of_legends::euw
   include rabbitmq
   include propane
+  include sublime_text_2
 
 }
