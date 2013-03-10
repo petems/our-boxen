@@ -81,7 +81,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: petems/puppet-sublime_text_2
   specs:
-    sublime_text_2 (1.1.6)
+    sublime_text_2 (1.1.8)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
@@ -105,6 +105,6 @@ DEPENDENCIES
   rabbitmq (= 1.1.2)
   ruby (= 3.1.0)
   stdlib (= 3.0.0)
-  sublime_text_2 (= 1.1.6)
+  sublime_text_2 (= 1.1.8)
   sudo (= 1.0.0)
 
