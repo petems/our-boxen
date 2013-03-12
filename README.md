@@ -36,3 +36,8 @@ This template project contains the following:
 * Mou
 * League of Legends
 
+FAQ
+=======
+See [FAQ](https://github.com/boxen/our-boxen/blob/master/docs/faq.md).
+
+Use Issues or #boxen on irc.freenode.net.
