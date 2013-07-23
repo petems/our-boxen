@@ -106,11 +106,10 @@ This template project contains the following:
 * Findutils
 * GNU tar
 
-<<<<<<< HEAD
 ## PeteMS custom shizzle
 * Mou
 * League of Legends
-=======
+
 ## Customizing
 
 You can always check out the number of existing modules we already
