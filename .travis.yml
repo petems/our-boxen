@@ -1,4 +1,2 @@
-language: ruby
-rvm:
-  - 1.9.3
+language: objective-c
 script: ./script/boxen --no-fde
