@@ -1,2 +1,35 @@
+---
+before_script:
+- sudo mkdir -p /opt/boxen
+- sudo chown ${USER}:admin /opt/boxen
+- git clone "git@github.com:zendesk/zendesk_boxen.git" /opt/boxen/repo
+- rvm use system
+- echo 'Remove RVM'
+- echo 'yes' | rvm --force implode
+- echo 'Remove homebrew'
+- cd `brew --prefix`
+- pwd
+- rm -rf Cellar
+- brew prune
+- rm -rf `git ls-files`
+- rm -rf Library/Homebrew Library/Aliases Library/Formula Library/Contributions
+- rm -rf .git
+- rm -rf ~/Library/Caches/Homebrew
+env:
+  global:
+  - secure: 
+  - secure: 
 language: objective-c
-script: ./script/boxen --no-fde
+source_key: 
+script:
+- cd /opt/boxen/repo
+- pwd
+- security add-generic-password -a "$TRAVIS_GITHUB_LOGIN" -s 'GitHub API Token' -p "$TRAVIS_GITHUB_PASSWORD"
+- env | grep -v TRAVIS_GITHUB
+- gem env
+- git config --global credential.helper osxkeychain
+- echo $TRAVIS_GITHUB_LOGIN
+- echo $TRAVIS_GITHUB_PASSWORD
+- script/boxen --debug --no-fde --login ##### --password ######
+- source /opt/boxen/env.sh
+- boxen --env
