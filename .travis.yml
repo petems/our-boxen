@@ -2,6 +2,7 @@
 before_script:
 - sudo mkdir -p /opt/boxen
 - sudo chown ${USER}:admin /opt/boxen
+- ssh -o StrictHostKeyChecking=no git@github.com || true
 - git clone "git@github.com:zendesk/zendesk_boxen.git" /opt/boxen/repo
 - rvm use system
 - echo 'Remove RVM'
@@ -22,7 +23,6 @@ env:
 language: objective-c
 source_key: 
 script:
-- ssh -o StrictHostKeyChecking=no git@github.com || true
 - cd /opt/boxen/repo
 - pwd
 - security add-generic-password -a "$TRAVIS_GITHUB_LOGIN" -s 'GitHub API Token' -p "$TRAVIS_GITHUB_PASSWORD"
