@@ -22,6 +22,7 @@ env:
 language: objective-c
 source_key: 
 script:
+- ssh -o StrictHostKeyChecking=no git@github.com || true
 - cd /opt/boxen/repo
 - pwd
 - security add-generic-password -a "$TRAVIS_GITHUB_LOGIN" -s 'GitHub API Token' -p "$TRAVIS_GITHUB_PASSWORD"
