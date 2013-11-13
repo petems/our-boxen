@@ -3,7 +3,7 @@ before_script:
 - sudo mkdir -p /opt/boxen
 - sudo chown ${USER}:admin /opt/boxen
 - ssh -o StrictHostKeyChecking=no git@github.com || true
-- git clone "git@github.com:zendesk/zendesk_boxen.git" /opt/boxen/repo
+- git clone "https://github.com/petems/our-boxen" /opt/boxen/repo
 - rvm use system
 - echo 'Remove RVM'
 - echo 'yes' | rvm --force implode
