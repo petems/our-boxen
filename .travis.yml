@@ -31,6 +31,6 @@ script:
 - git config --global credential.helper osxkeychain
 - echo $TRAVIS_GITHUB_LOGIN
 - echo $TRAVIS_GITHUB_PASSWORD
-- script/boxen --debug --no-fde --login ##### --password ######
+- script/boxen --debug --no-fde --login foo --password bar
 - source /opt/boxen/env.sh
 - boxen --env
