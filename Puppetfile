@@ -61,3 +61,5 @@ github "mou",					  "1.0.0"
 github "league_of_legends",		  "1.1.2", :repo => "petems/puppet-league_of_legends"
 github "rabbitmq",                "1.1.2", :repo => "petems/puppet-rabbitmq"
 github "sublime_text_2",   		  "1.1.8", :repo => "petems/puppet-sublime_text_2"
+
+github "licecap",      "1.0.0"
