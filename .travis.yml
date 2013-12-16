@@ -29,8 +29,6 @@ script:
 - env | grep -v TRAVIS_GITHUB
 - gem env
 - git config --global credential.helper osxkeychain
-- echo $TRAVIS_GITHUB_LOGIN
-- echo $TRAVIS_GITHUB_PASSWORD
-- script/boxen --debug --no-fde --login foo --password bar
+- BOXEN_GITHUB_LOGIN=foo BOXEN_GITHUB_LOGIN=bar script/boxen --debug --no-fde
 - source /opt/boxen/env.sh
 - boxen --env
