@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "boxen", :git => 'git@github.com:petems/boxen.git', :branch => 'ci_mode'
+gem "boxen", :git => 'https://github.com/petems/boxen', :branch => 'ci_mode'
 gem "hiera",                  "~> 1.1"
 gem "librarian-puppet",       "~> 0.9.9"
 gem "puppet",                 "3.3.1"

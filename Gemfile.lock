@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:petems/boxen.git
+  remote: https://github.com/petems/boxen
   revision: 187364efd90fa713d2a0515331cb0062a26ada36
   branch: ci_mode
   specs:
