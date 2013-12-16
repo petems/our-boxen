@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/petems/boxen
-  revision: 187364efd90fa713d2a0515331cb0062a26ada36
+  revision: 6631cdaac4179fc3c522998ba0021c96eed7086b
   branch: ci_mode
   specs:
     boxen (2.1.0)
