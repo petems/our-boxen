@@ -3,7 +3,7 @@ before_script:
 - sudo mkdir -p /opt/boxen
 - sudo chown ${USER}:admin /opt/boxen
 - ssh -o StrictHostKeyChecking=no git@github.com || true
-- git clone "https://github.com/petems/our-boxen" /opt/boxen/repo
+- git clone "https://github.com/$TRAVIS_REPO_SLUG" /opt/boxen/repo
 - rvm use system
 - echo 'Remove RVM'
 - echo 'yes' | rvm --force implode
@@ -24,10 +24,6 @@ language: objective-c
 source_key: 
 script:
 - cd /opt/boxen/repo
-- pwd
-- security add-generic-password -a "$TRAVIS_GITHUB_LOGIN" -s 'GitHub API Token' -p "$TRAVIS_GITHUB_PASSWORD"
-- env | grep -v TRAVIS_GITHUB
-- gem env
 - git config --global credential.helper osxkeychain
 - BOXEN_GITHUB_LOGIN=foo BOXEN_GITHUB_LOGIN=bar script/boxen --debug --no-fde
 - source /opt/boxen/env.sh
