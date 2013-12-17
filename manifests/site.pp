@@ -93,6 +93,5 @@ node default {
   include rabbitmq
   include propane
   include sublime_text_2
-  include growl_fork
 
 }

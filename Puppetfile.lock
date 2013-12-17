@@ -99,11 +99,6 @@ GITHUBTARBALL
     inifile (1.0.0)
 
 GITHUBTARBALL
-  remote: petems/puppet-growl_fork
-  specs:
-    growl_fork (1.0.4)
-
-GITHUBTARBALL
   remote: petems/puppet-league_of_legends
   specs:
     league_of_legends (1.1.2)
