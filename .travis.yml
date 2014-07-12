@@ -26,5 +26,4 @@ script:
 - cd /opt/boxen/repo
 - git config --global credential.helper osxkeychain
 - CI_MODE=true BOXEN_GITHUB_LOGIN=foo BOXEN_GITHUB_PASSWORD=bar script/boxen --debug --no-fde
-- source /opt/boxen/env.sh
-- boxen --env
+- CI_MODE=true BOXEN_GITHUB_LOGIN=foo BOXEN_GITHUB_PASSWORD=bar boxen --env
