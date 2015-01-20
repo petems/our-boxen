@@ -58,12 +58,12 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
-# Optional/custom modules. There are tons available at
-# https://github.com/boxen.
-
+# Puppetlabs Modules
 github "vagrant",       "3.2.2"
 github "virtualbox",    "1.0.13"
 github "hipchat",       "1.1.3"
 github "caffeine",      "1.0.0"
 github "smcfancontrol", "1.0.0", :repo => "petems/puppet-smcfancontrol"
 github "viscosity",     "1.0.0"
+github "vmware_fusion", "1.2.0"
+github "heroku",        "2.1.1"

@@ -1,0 +1,45 @@
+boxen::personal::includes:
+  - heroku
+
+boxen::personal::osx_apps:
+  - alfred
+  - dropbox
+  - google-chrome
+  - gpgtools
+  - hazel
+  - istat-menus
+  - minecraft
+  - omnigraffle
+  - playonmac
+  - rdio
+  - skype
+  - slate
+  - sonos
+  - steam
+  - spectacles
+  - spotify
+  - things
+  - tiled
+  - vlc
+
+boxen::personal::homebrew_packages:
+  # Network Tools
+  - httpry
+  - ipcalc
+  - mtr
+
+  # System
+  - htop-osx
+  - pstree
+  - pv
+  - spark
+  - watch
+  - terminal-notifier
+
+  # Dev
+  - awscli
+  - ctags
+  - gist
+  - the_silver_searcher
+  - jq
+  - keybase
