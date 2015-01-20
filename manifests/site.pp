@@ -75,23 +75,6 @@ node default {
   ruby::version { '2.1.1': }
   ruby::version { '2.1.2': }
 
-  class { 'vagrant':
-    version => '1.6.5'
-  }
-
-  class { 'virtualbox':
-    version => '4.3.14',
-    patch_level => '95030'
-  }
-
-  class { 'hipchat':}
-
-  class { 'caffeine':}
-
-  class { 'smcfancontrol':}
-
-  class { 'viscosity':}
-
   # common, useful packages
   package {
     [
