@@ -13,4 +13,11 @@ class people::petems {
     require => File[$projects]
   }
 
+  include sublime_text_3
+  include sublime_text_3::package_control
+
+  sublime_text_3::package { 'Emmet':
+    source => 'sergeche/emmet-sublime'
+  }
+
 }

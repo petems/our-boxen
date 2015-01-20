@@ -124,6 +124,11 @@ GITHUBTARBALL
     xquartz (1.2.1)
 
 GITHUBTARBALL
+  remote: jozefizso/puppet-sublime_text_3
+  specs:
+    sublime_text_3 (1.0.3)
+
+GITHUBTARBALL
   remote: petems/puppet-smcfancontrol
   specs:
     smcfancontrol (1.0.0)
@@ -167,6 +172,7 @@ DEPENDENCIES
   ruby (= 8.1.7)
   smcfancontrol (= 1.0.0)
   stdlib (= 4.2.1)
+  sublime_text_3 (= 1.0.3)
   sudo (= 1.0.0)
   vagrant (= 3.2.2)
   virtualbox (= 1.0.13)
