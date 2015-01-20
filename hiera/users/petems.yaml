@@ -5,6 +5,7 @@ boxen::personal::osx_apps:
   - alfred
   - dropbox
   - google-chrome
+  - laullon-gitx
   - gpgtools
   - hazel
   - istat-menus
@@ -23,6 +24,10 @@ boxen::personal::osx_apps:
   - vlc
 
 boxen::personal::homebrew_packages:
+  # Audio Stuff
+  - portaudio
+  - mpg123
+
   # Network Tools
   - httpry
   - ipcalc
