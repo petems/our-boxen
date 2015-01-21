@@ -16,8 +16,22 @@ class people::petems {
   include sublime_text_3
   include sublime_text_3::package_control
 
-  sublime_text_3::package { 'Emmet':
-    source => 'sergeche/emmet-sublime'
+  sublime_text_3::package { 'GitCommitMsg':
+    source => 'cbumgard/GitCommitMsg'
   }
+
+  sublime_text_3::package { 'Puppet':
+    source => 'russCloak/SublimePuppet'
+  }
+
+  sublime_text_3::package { 'GitGutter':
+    source => 'jisaacks/GitGutter'
+  }
+
+  class {'packer':}
+
+  vagrant::plugin { 'vbguest':}
+
+  vagrant::plugin { 'cachier':}
 
 }
